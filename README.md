@@ -1,2 +1,3 @@
 # study
-study many things
+study many things.
+
