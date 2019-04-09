@@ -1,0 +1,30 @@
+{
+    "name": "__MSG_appName__",
+    "description": "__MSG_appDescription__",
+    "version": "2",
+    "manifest_version": 2,
+    "default_locale": "en",
+    "permissions": [
+        "identity",
+    "http://*/*",
+    "https://*/*"
+        ],
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/icon-128.png"
+    },
+    "app": {
+        "background": {
+            "scripts": [
+                "scripts/main.js",
+            "scripts/chromereload.js"
+                ]
+        }
+    },
+    "oauth2": {
+        "client_id": "773495824684-smlch6tbndc2h0jvlip49mgecvtf7os4.apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/drive"
+            ]
+    }
+}
